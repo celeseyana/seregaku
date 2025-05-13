@@ -16,3 +16,22 @@
 .nav-item {
     width: 120px;
 }
+
+.login-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.login-icon {
+    font-size: 32px;
+    opacity: 0;
+    transform: translateX(20px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.login-button:hover .login-icon {
+    opacity: 1;
+    transform: translateX(0); 
+}
