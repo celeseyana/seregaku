@@ -1,0 +1,12 @@
+.home-container {
+    position: relative;
+    width: 100%;
+}
+
+.home-content {
+    position: relative;
+    z-index: 2;
+    padding: 2rem;
+    color: white;
+    text-align: center;
+}
