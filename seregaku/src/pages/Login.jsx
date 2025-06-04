@@ -31,12 +31,12 @@ export default function Login() {
                 </div>
 
                 <div className="has-text-centered mt-4">
-                    <p>
-                        Don't have an account?{' '}
-                        <a href="" className="has-text-link">
-                            Sign up!
-                        </a>
-                    </p>
+                    <p className="control mt-5">Don't have an account?</p>
+                    <div className="control mt-1">
+                        <button className="button is-info is-fullwidth">
+                            Sign Up
+                        </button>
+                    </div>
                 </div>
             </div>
         </section>
